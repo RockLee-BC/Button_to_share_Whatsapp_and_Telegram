@@ -3,11 +3,11 @@
 Developer: [url=https://www.bombercode.net/foro/index.php?action=profile;u=1]Rock Lee[/url][/center]
 
 
-[anchor=introduccion][color=teal][size=14pt][b]Introduction[/b][/size][/color][/anchor]
+[color=teal][size=14pt][b]Introduction[/b][/size][/color]
 [hr]
 It is a simple modification that adds 2 buttons to share via whatsapp and telegram. It takes the link of the subject you are looking at and when the application is detected it allows you to select who you can send it to.
 
-[anchor=idioma][color=teal][size=14pt][b]Language[/b][/size][/color][/anchor]
+[color=teal][size=14pt][b]Language[/b][/size][/color]
 [hr]
 Is available in:
 [list]
@@ -15,12 +15,12 @@ Is available in:
 [li]Latin Spanish[/li]
 [/list]
 
-[anchor=compatibilidad][color=teal][size=14pt][b]Compatibility[/b][/size][/color][/anchor]
+[color=teal][size=14pt][b]Compatibility[/b][/size][/color]
 [hr]
 Prepared to work with the branch 2.0.x of SMF, it is tested only with the default theme. if you have a custom theme, you should adapt by looking for a similar line.
 +Now also works with SMF 2.1 with the default theme!
 
-[anchor=ofertas][color=teal][size=14pt][b]License[/b][/size][/color][/anchor]
+[color=teal][size=14pt][b]License[/b][/size][/color]
 [hr]
 Copyright 2014-2018 (c) Bomber Code
 
