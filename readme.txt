@@ -1,5 +1,5 @@
 [center][color=brown][size=20pt][b]Whatsapp and Telegram[/b][/size][/color]
-[color=brown]Button to share | Version 1.0[/color]
+[color=brown]Button to share | Version 1.1[/color]
 Developer: [url=https://www.bombercode.net/foro/index.php?action=profile;u=1]Rock Lee[/url][/center]
 
 
@@ -18,6 +18,7 @@ Is available in:
 [anchor=compatibilidad][color=teal][size=14pt][b]Compatibility[/b][/size][/color][/anchor]
 [hr]
 Prepared to work with the branch 2.0.x of SMF, it is tested only with the default theme. if you have a custom theme, you should adapt by looking for a similar line.
++Now also works with SMF 2.1 with the default theme!
 
 [anchor=ofertas][color=teal][size=14pt][b]License[/b][/size][/color][/anchor]
 [hr]
