@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<name>Button to share Whatsapp and Telegram</name>
+	<id>RockLee:ShareWhatsappTelegram</id>
+	<type>modification</type>
+	<version>1.0</version>
+
+	<install for="2.0 - 2.0.99, ">
+		<readme type="file" parsebbc="true">readme.txt</readme>
+		<modification>install_20x.xml</modification>
+		<modification>language.xml</modification>
+		<require-file name="Images/Telegram.png" destination="$themedir/images/icons" />
+		<require-file name="Images/Whatsapp.png" destination="$themedir/images/icons" />
+	</install>
+	<uninstall for="2.0 - 2.0.99">
+		<modification reverse="true">install_20x.xml</modification>
+		<modification reverse="true">language.xml</modification>
+		<remove-file name="$themedir/images/icons/Telegram.png" />
+		<remove-file name="$themedir/images/icons/Whatsapp.png" />
+	</uninstall>
+	
+	<install for="2.1 Beta 3">
+		<readme type="file" parsebbc="true">readme.txt</readme>
+		<modification>install_21x.xml</modification>
+		<modification>language.xml</modification>
+		<require-file name="Images/Telegram.png" destination="$themedir/images/icons" />
+		<require-file name="Images/Whatsapp.png" destination="$themedir/images/icons" />
+	</install>
+	
+	<uninstall for="2.1 Beta 3">
+		<modification reverse="true">install_21x.xml</modification>
+		<modification reverse="true">language.xml</modification>
+		<remove-file name="$themedir/images/icons/Telegram.png" />
+		<remove-file name="$themedir/images/icons/Whatsapp.png" />
+	</uninstall>
+</package-info>

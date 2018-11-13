@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+<id>RockLee:ShareWhatsappTelegram</id>
+<name>Button to share Whatsapp and Telegram</name>
+<version>1.0</version>
+
+<!-------------------------------------------------------------------------->
+<!-- 						Language file								  -->
+<!-------------------------------------------------------------------------->
+<file name="$languagedir/Modifications.english.php">
+	<operation>
+		<search position="after"><![CDATA[?>]]></search>
+		<add><![CDATA[$txt['text_share'] = 'Thanks for sharing >>> ';
+]]></add>
+	</operation>
+</file>
+
+<file name="$languagedir/Modifications.spanish_latin.php" error="skip">
+	<operation>
+		<search position="after"><![CDATA[?>]]></search>
+		<add><![CDATA[$txt['text_share'] = 'Gracias por compartir >>> ';
+]]></add>
+	</operation>
+</file>
+
+<file name="$languagedir/Modifications.spanish_latin-utf8.php" error="skip">
+	<operation>
+		<search position="after"><![CDATA[?>]]></search>
+		<add><![CDATA[$txt['text_share'] = 'Gracias por compartir >>> ';
+]]></add>
+	</operation>
+</file>
+</modification>
