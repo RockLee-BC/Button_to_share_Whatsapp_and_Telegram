@@ -3,7 +3,7 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 <id>RockLee:ShareWhatsappTelegram</id>
 <name>Button to share Whatsapp and Telegram</name>
-<version>1.0</version>
+<version>1.1</version>
 
 <!-------------------------------------------------------------------------->
 <!-- Take the link to the site and share it by detecting the application. -->
@@ -13,9 +13,9 @@
 		<search position="replace"><![CDATA[<div class="smalltext reportlinks">';]]></search>
 		<add><![CDATA[<div class="smalltext reportlinks">
 							<a href="tg:msg_url?url=', $txt['text_share'] , $scripturl, '?topic=', $context['current_topic'], '.0">
-								<img alt="Telegram" src="' . $settings['images_url'] . '/icons/telegram.png" style="max-width: 30px; margin-top: -2px;margin-right: 10px;"/></a>
+								<img alt="Telegram" src="' . $settings['images_url'] . '/icons/Telegram.png" style="max-width: 30px; margin-top: -2px;margin-right: 10px;"/></a>
 							<a href="whatsapp://send?text=', $txt['text_share'] , $scripturl, '?topic=', $context['current_topic'], '.0" data-action="share/whatsapp/share">
-								<img alt="WhatsApp" src="' . $settings['images_url'] . '/icons/whatsapp.png" style="max-width: 30px; margin-top: -2px;"/></a>';]]></add>
+								<img alt="WhatsApp" src="' . $settings['images_url'] . '/icons/Whatsapp.png" style="max-width: 30px; margin-top: -2px;"/></a>';]]></add>
 	</operation>
 </file>
 </modification>
