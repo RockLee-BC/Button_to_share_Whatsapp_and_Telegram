@@ -31,4 +31,10 @@
 ]]></add>
 	</operation>
 </file>
+<file name="$languagedir/Modifications.portuguese_brazilian-utf8.php" error="skip">
+	<operation>
+		<search position="after"><![CDATA[?>]]></search>
+		<add><![CDATA[$txt['text_share'] = 'Obrigado por por compartilhar >>> ';
+]]></add>
+</file>
 </modification>
