@@ -13,6 +13,7 @@ Is available in:
 [list]
 [li]English[/li]
 [li]Latin Spanish[/li]
+[li]Portuguese Brazilian - Thanks to [url=https://www.simplemachines.org/community/index.php?action=profile;u=598068]ORIONzitos[/url][/li]
 [/list]
 
 [color=teal][size=14pt][b]Compatibility[/b][/size][/color]
